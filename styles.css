@@ -1,0 +1,29 @@
+body {
+  background-color: blanchedalmond
+}
+.scene {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 20px auto;
+}
+.head,
+.tail {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  transition: transform 1s;
+  /* transform-style: preserve-3d; */
+  /* backface-visibility: hidden; */
+  /* perspective: 600px; */
+}
+.head {
+  background-image: url('./images/front.png');
+}
+.tail {
+  background-image: url('./images/back.png');
+}
+.flip {
+  transform: rotateY( 720deg );
+}
