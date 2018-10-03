@@ -27,3 +27,10 @@ body {
 .flip {
   transform: rotateY( 720deg );
 }
+
+#face {
+  width: 200px;
+  height: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
