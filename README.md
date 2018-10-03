@@ -1,6 +1,6 @@
 # coin-flip
 
-Sources:
+See also:
 
 https://medium.com/@mattcroak718/coin-flip-web-app-made-using-javascript-html-and-css-animations-bfde5446ba6d
 
